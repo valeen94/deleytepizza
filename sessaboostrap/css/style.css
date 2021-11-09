@@ -1,0 +1,329 @@
+/*UNIVERSAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'DM Serif Display', serif;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Header*/
+.logo{
+    width: 10%;
+    height: auto;
+    margin: 0.7rem;
+}
+/*Nav*/
+header{
+    position: relative;
+    background-color:#2d3c89;
+    background: linear-gradient(#2d3c89, #3f87a6);
+
+}
+/*flex*/
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #b3a8a4;
+}
+.linkActive{
+    color: #a19a97;
+}
+/*Submenú*/
+.subMenu{
+    position: relative;
+}
+ul ul{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 1rem;
+    left: 0.5rem;
+}
+ul ul li{
+    display: block;
+}
+ul li:hover ul{
+    display: block;
+}
+.fa-sort-down{
+    margin-left: 0.5rem;
+}
+
+/*Main*/
+/*Inicio*/
+.bannerTitulo{
+    width: 75%;
+    padding: 6rem;
+    margin: 2rem auto;
+    background-image: url(../img/fondopizza.png);
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}
+.iframe__Video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height:500px;  
+    margin: 0 auto; 
+}
+/*Imágenes */
+.div__Imagenes{
+    text-align: center;
+    
+}
+.imgtitulo{
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1.5rem;
+    text-align: center;
+}
+.imgBotones{
+    width: 25%;
+    margin: 0.5rem;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 30%);
+    transition: transform .2s;
+}
+
+.imgBotones:hover {
+    transform: scale(1.1); 
+}
+/*flex*/
+.imgFlex{
+    display: flex;
+    justify-content: center;
+}
+.menuFlex ul li{
+    display: flex;
+  justify-content:center;
+  color: #ffffff;
+}
+
+/*Sección 2 - Contacto*/
+.seccion__Contacto{
+    width: 75%;
+    margin: 3rem auto;
+    padding: 1.5rem 1rem;
+    background-color: #2d3c89;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 30%);
+}
+/*Formulario*/
+.contactoTitulo{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1.5rem;
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+form label{
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 600;
+}
+form input, textarea{
+    width: 60%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: solid 1px #2d3c89;
+    color: #2d3c89;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem;
+}
+form textarea{
+    height: 5rem;
+}
+form input:focus, textarea:focus{
+    outline: none;
+}
+form input[type="submit"]{
+    margin-top: 1.5rem;
+    padding: 0.4rem;
+    background-color: #ff0800;
+    font-weight: 700;
+    color: white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+form input[type="submit"]:hover{
+    background-color: #a7684d;
+}
+h1{
+    color:#ffffff;
+    background-color:#2d3c89 ;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}
+h2{
+    color:#ffffff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}
+p{
+    color:#ffffff;
+    background-color:#2d3c89 ;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+}
+section ul li{
+    width: 75%;
+    margin: 3rem auto;
+    padding: 1.5rem 1rem;
+    background-color: #2d3c89;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 30%);
+}
+.flex-container{
+text-align: center;
+}
+/*FOOTER*/
+footer{
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: #2d3c89;
+}
+footer p{
+    color: #ebdbce;
+    font-weight: 600;
+    text-align: center;
+    font-size: 0.8rem;
+}
+.fa-whatsapp{
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    color: #fff;
+    font-size: 2rem;
+    background-color: #3ec34f;
+    border-radius: 50%;
+    padding: 0.6rem;
+}
+.nosotros__Local{
+    display: flex;
+  justify-content:center;
+  color: #ffffff;
+    
+}
+.iconos__Redes{
+    color: #ffffff;
+}
+/*media queries*/
+@media only screen and (max-width: 480px) {
+    .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+        position: absolute;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        top: 0;
+        width: 48px;
+        height: 48px;
+      }
+      
+    .respmenu .fa-bars, .respmenu .fa-times {
+        font-size: 48px;
+        pointer-events: none;
+      }
+      
+    .respmenu input[type="checkbox"] {
+        opacity: 0;
+      }
+      
+    .respmenu {
+        color: white;
+        position: relative;
+        background: #123456;
+        min-height: 48px;
+      }
+      
+    .respmenu nav {
+        display: none;
+      }
+      
+    .respmenu input:checked ~ nav {
+        display: block;
+      }
+      
+    .respmenu input:checked ~ .fa-bars {
+        display: none;
+      }
+      
+    .respmenu input:not(:checked) ~ .fa-times {
+        display: none;
+      }
+    .video__Principal{
+        display: none;
+     
+      }
+    .logo{
+          width: 10rem;
+          height: 5%; 
+          padding-left: 6.7rem;}
+
+
+    .imgBotones{
+            width: 55%;
+            margin: 0.5rem;
+            box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 30%);
+            padding: center;}
+        }
+ @media only screen and (max-width: 768px){ 
+
+     .logo{ 
+          width: 15rem;
+          height: 5%; 
+          padding-left: 12rem;}
+
+     .video__Principal{
+     display:none ;
+     }
+     .imgBotones{
+        width: 55%;
+        margin: 0.5rem;
+        box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 30%);
+        padding:  center;
+      }
+         
+ }
